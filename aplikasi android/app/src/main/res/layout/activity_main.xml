@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/desainlaman"
+    android:padding="30dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logoub"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/clowdi"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLOWDI"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mesin Penjemur Pakaian"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:text="HWID :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtHWID"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:text="PASSWORD :"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/edtpassword" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="LOGIN"
+            android:id="@+id/btnLogin"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:backgroundTint="#009688">
+    </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="DAFTAR"
+            android:id="@+id/btndaftar"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:backgroundTint="#006C96">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text="Waktu"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_below="@id/time_text_view"
+            android:text="Kelembapan : " />
+        <TextView
+            android:id="@+id/rh_text_view"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@id/time_text_view"
+            android:text="20" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@id/time_text_view"
+            android:text=" %" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textColor="#000000"
+            android:text="Suhu Luar : " />
+
+        <TextView
+            android:id="@+id/suhu_luar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:text="50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@id/rh_text_view"
+            android:text=" C" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Suhu Dalam : " />
+
+        <TextView
+            android:id="@+id/suhu_dalam"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text="30" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:textStyle="bold"
+            android:text=" C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Rain Drop : " />
+
+        <TextView
+            android:id="@+id/raindrop"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Hujan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="LDR : " />
+
+        <TextView
+            android:id="@+id/ldr"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Malam" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Kondisi Jemuran : " />
+
+        <TextView
+            android:id="@+id/kondisijemuran"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="di Dalam" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Kondisi Heater : " />
+
+        <TextView
+            android:id="@+id/menyala"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Menyala" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_below="@id/rh_text_view"
+            android:text="Mode Mesin : " />
+
+        <TextView
+            android:id="@+id/modemesin"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Otomatis" />
+
+    </LinearLayout>
+
+    </LinearLayout>

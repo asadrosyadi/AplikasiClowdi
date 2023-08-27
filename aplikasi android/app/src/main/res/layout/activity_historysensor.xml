@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desainlaman"
+    tools:context=".historysensor">
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="History Device"
+      android:textAlignment="center"
+      android:textColor="#000000"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/listView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ListView
+      android:id="@+id/listView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="80dp"
+      android:textColor="#000000"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:layout_editor_absoluteX="113dp" />
+
+  <Button
+      android:id="@+id/pindahRumah"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="#009688"
+      android:text="Kembali"
+      android:textColor="#FFFFFF"
+      app:layout_constraintBottom_toBottomOf="@+id/listView" />
+</android.support.constraint.ConstraintLayout>
